@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @PreAuthorize("hasAuthority('IT/INTERNAL')")
 public class AuthenticateApp2Controller {
 
-    @GetMapping("/autenticar")
+    @GetMapping("/conectar")
     public String auth() {
-        return "Sou App2 e estou autenticado!!";
+        return "Sou App2 e tenho autorização para conectar nessa API!!";
     }
 }

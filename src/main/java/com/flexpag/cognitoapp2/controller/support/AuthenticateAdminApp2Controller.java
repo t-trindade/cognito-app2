@@ -10,6 +10,6 @@ public class AuthenticateAdminApp2Controller {
 
     @GetMapping("/support/admin")
     public String authSupport() {
-        return "Sou App2 e estou autenticado como admin!!";
+        return "Sou App2 e tenho autorização para conectar nessa API como admin!!";
     }
 }
